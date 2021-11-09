@@ -1,4 +1,18 @@
-#Binary Search Code
+"""
+Binary Search
+
+Input:
+1. A list of numbers sorted in increasing order
+2. A number to be searched in the list
+
+Output:
+1. The index of the searched number in the list
+2. If number is not found in the list, return None
+
+Constraints:
+
+"""
+
 def search(items, target):
     firstIndex = 0
     lastIndex = len(items)-1
